@@ -1,0 +1,67 @@
+{
+  "name": "por-mern0stack2-api",
+  "version": "1.0.0",
+  "description": "This is a new project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm",
+    "#start": "UI server. HMR is enabled in dev mode.",
+    "start": "node dist/server.js",
+    "#lint": "Runs ESLint on all relevant files",
+    "compile": "babel browser/app.jsx --out-dir public --watch",
+    "#compile": "Generates JS bundles for production. Use with start.",
+    "#watch": "Compile, and recompile on any changes.",
+    "watch": "webpack --config web.config.js --watch",
+    "lint": "eslint server src browser --ext js,jsx",
+    "watchs": "npx webpack -w --config webpack.serverHMR.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrpatrick2407/new"
+  },
+  "author": "theo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrpatrick2407/new/issues"
+  },
+  "homepage": "https://github.com/mrpatrick2407/new/#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.12.0",
+    "babel-loader": "^9.1.2",
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "history": "^5.3.0",
+    "http-proxy-middleware": "^0.21.0",
+    "jwt-decode": "^3.1.2",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.2",
+    "nodemon": "^2.0.21",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-bootstrap-icons": "^1.10.3",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^4.3.1",
+    "url-search-params": "^1.1.0",
+    "webpack-merge": "^4.2.2",
+    "webpack-node-externals": "^3.0.0",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-middleware": "^6.0.2",
+    "webpack-hot-middleware": "^2.25.3"
+  }
+}

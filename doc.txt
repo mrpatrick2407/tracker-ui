@@ -1,0 +1,6 @@
+export DATASTORE=zilliz
+export BEARER_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+export OPENAI_API_KEY=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
+ZILLIZ_URI=https://in01-d3608244c63c38f.aws-us-west-2.vectordb.zillizcloud.com:19541
+ZILLIZ_USER=db_admin
+ZILLIZ_PASSWORD=Kritheo2420
